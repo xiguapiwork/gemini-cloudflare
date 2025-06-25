@@ -10,7 +10,7 @@
     "deploy": "wrangler deploy"
   },
   "dependencies": {
-    "@google/genai": "^0.2.1"
+    "@google/genai": "^1.6.0"
   },
   "devDependencies": {
     "wrangler": "^3.0.0",
