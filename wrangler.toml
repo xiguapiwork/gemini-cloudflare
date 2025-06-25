@@ -1,0 +1,15 @@
+name = "cloudflare-gemini"
+main = "dist/main.js"
+compatibility_date = "2025-06-25"
+
+[build]
+command = "npm run build"
+
+[build.upload]
+format = "modules"
+dir = "dist"
+main = "main.js"
+
+# 如果需要环境变量，可以在这里添加
+# [vars]
+# MY_VARIABLE = "my-value"

@@ -1,0 +1,19 @@
+{
+  "name": "cloudflare-gemini",
+  "version": "1.0.0",
+  "description": "Google Gemini API proxy service for Cloudflare Workers",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@google/genai": "^0.2.1"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
